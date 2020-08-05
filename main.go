@@ -28,7 +28,7 @@ func main() {
 		var answer string
 		fmt.Scanf("%s\n", &answer)
 		if answer == p.a {
-			correct++
+			correct+=1
 		}
 	}
 	fmt.Printf("You scored %d out of %d. \n", correct, len(problems))
